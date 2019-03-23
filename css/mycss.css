@@ -1,0 +1,118 @@
+.fondo{
+
+background-repeat: repeat;
+background-size: cover;
+ background-image: url("../media/back.jpg") !important;
+}
+ 
+
+.blaku{
+
+    background-color: #1e1e1a !important;
+}
+.blakuu{
+
+    background-color: #262621 !important;
+}
+
+
+.tchain{
+    color: #cc7900 !important;
+    font-weight: bold !important;
+
+/*     color: #996515	 !important;
+ */}
+.sall{
+    height: 460px !important;
+}
+.tchain2{
+    background-color: #1e1e1a !important;
+    color: white !important;
+    font-weight: bold !important;
+
+}
+.tchain2:hover{
+ color: #cc7900 !important;  
+ font-weight: bold !important;
+}
+.adc-fa:hover {
+    background-color: #3d5b99 !important;
+  }
+  
+  .adc-tw:hover {
+    background-color: #00aced !important;
+  }
+  
+  .adc-yo:hover {
+    background-color: #e64a41 !important;
+  }
+  
+  .adc-in:hover {
+    background-color: #c32aa3 !important;
+  }
+  
+  .adc-pi:hover {
+    background-color: #bd081c !important;
+  }
+  .navd:hover{
+
+    color: white !important;
+    font-weight:  bold !important;
+  }
+ .cardo{
+   border-radius: 25px !important;
+
+ }
+ .cardu{
+  padding:20px !important;
+  box-sizing:border-box !important;
+ }
+ .vidu{
+  width: 600px !important;
+ }
+ .imgmodal{
+   height: 120px !important;
+ }
+ 
+/*  video part */
+.vida { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.btncontac{
+background: #01579b   !important;
+font-weight: bold !important;
+}
+.blure{
+  height: 200px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
